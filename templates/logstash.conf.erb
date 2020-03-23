@@ -19,7 +19,7 @@ input {
 # Outputs
 output {
   elasticsearch {
-    hosts => ["172.16.10.100:9200"]
+    hosts => ["10.0.13.100:9200"]
     index => "%{[@metadata][beat]}-%{+YYYY.MM.dd}"
     document_type => "%{[@metadata][type]}"
   }
