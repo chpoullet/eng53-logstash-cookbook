@@ -31,7 +31,7 @@ end
 
 package "logstash"
 
-template 'etc/logstash/conf.d/logstash.conf' do
+template '/etc/logstash/conf.d/logstash.conf' do
   source 'logstash.conf.erb'
   mode '666'
   owner 'root'

@@ -7,7 +7,7 @@ driver:
   associate_public_ip: true
   # aws_ssh_key_id: eng53-devops-final-ssh-key
   transport:
-    ssh_key: ~/.ssh/eng53-devops-final-ssh-key.pem
+    ssh_key: ~/.ssh/jason-robinson-eng53-ire-key.pem
 
 ## The forwarded_port port feature lets you connect to ports on the VM guest via
 ## localhost on the host.
