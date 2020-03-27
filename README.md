@@ -19,5 +19,3 @@ kitchen test
 ```
 
 ![logstash](https://logodix.com/logo/2035917.png)
-
-test
